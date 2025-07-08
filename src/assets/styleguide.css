@@ -1,0 +1,29 @@
+:root {
+  --pri: #4caf50; /* Knoppen, actieve onderdelen */
+  --sec: #f9a825; /* Accenten, badges, filterlabels */
+  --bg: #f5f5f5; /* Pagina-achtergrond */
+  --txt: #212121; /* Hoofdtekst */
+  --subtxt: #616161; /* Metadata, toelichting */
+  --fav: #ff5252; /* Harticoon, favorietenstatus */
+  --rating: #ffd600; /* Sterren bij beoordelingen */
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  font-size: 1rem;
+  color: var(--txt);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
